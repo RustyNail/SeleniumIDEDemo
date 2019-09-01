@@ -8,7 +8,7 @@ Selenium IDE の使い方については以下のQiita記事を参照してく�
 
 https://qiita.com/oh_rusty_nail/items/5b584c95e01759c00869
 
-作成したテストは日本Seleniumユーザーコミュニティが提供している[デモサイト](http://example.selenium.jp/reserveApp_Renewal/) を対象サイトとしています。
+作成したテストは日本Seleniumユーザーコミュニティが提供している[デモサイト](http://example.selenium.jp/reserveApp_Renewal/) を対象サイトとしています。
 
 用途別に2つのテストプロジェクトを用意しています。
 
