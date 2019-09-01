@@ -1,5 +1,7 @@
 # SeleniumIDE Demo
 
+[![Build Status](https://travis-ci.org/RustyNail/SeleniumIDEDemo.svg?branch=master)](https://travis-ci.org/RustyNail/SeleniumIDEDemo)
+
 これからSeleniumを使ったテスト自動化を初められる方、簡単にデモで体験をして見たい方向けにサンプルを作成しました。
 
 Selenium IDE の使い方については以下のQiita記事を参照してください。

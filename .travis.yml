@@ -1,0 +1,12 @@
+language: node_js
+services:
+  - xvfb
+addons:
+  chrome: stable
+node_js:
+  - "11"
+before_script:
+  - npm install -g chromedriver
+  - npm install -g selenium-side-runner
+script:
+  - selenium-side-runner -c "browserName=chrome" STARHOTEL_reservation.side
