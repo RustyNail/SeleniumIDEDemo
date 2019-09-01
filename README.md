@@ -20,4 +20,10 @@ https://qiita.com/oh_rusty_nail/items/5b584c95e01759c00869
 
 また、STARHOTEL_reservation.sideのテストをTravisCIで実行できるように設定した .travis.ymlを配置しています。
 
-コマンドラインで実行する手順も上記のQiita記事に記載しています。
+ローカル環境でコマンドライン上で実行する場合は、以下の手順で実施してください。
+
+```
+$ npm install -g selenium-side-runner
+$ npm install -g chromedriver
+$ selenium-side-runner -c "browserName=chrome" STARHOTEL_reservation.side 
+```
