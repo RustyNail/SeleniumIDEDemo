@@ -1,0 +1,49 @@
+{
+  "id": "279a0b92-99b6-42bb-af31-05eff55bae97",
+  "version": "2.0",
+  "name": "STARHOTEL_reservation",
+  "url": "http://example.selenium.jp",
+  "tests": [{
+    "id": "0471812c-f937-4e53-a8cc-c45ecb17c710",
+    "name": "open_reservation_page",
+    "commands": [{
+      "id": "92b8e52f-d5a6-4408-bb90-0591af0967f8",
+      "comment": "",
+      "command": "open",
+      "target": "/reserveApp_Renewal",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "64da11ab-eaf7-4095-b367-6296fcaeb0bb",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "予約情報入力",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "17fb3dc0-c413-4cfb-be6e-edc19fd8e182",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=h1",
+      "targets": [],
+      "value": "予約フォーム"
+    }, {
+      "id": "044b1ea1-7d27-442c-8a75-558b0e2b80b6",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "ef2c057a-f17e-43d8-9394-1a9e657facdd",
+    "name": "Reservation Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["0471812c-f937-4e53-a8cc-c45ecb17c710"]
+  }],
+  "urls": ["http://example.selenium.jp/"],
+  "plugins": []
+}
