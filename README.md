@@ -18,6 +18,8 @@ https://qiita.com/oh_rusty_nail/items/5b584c95e01759c00869
 * SeleniumIDECommands.side
     * SeleniumIDE(バージョン v3.12.0)で利用可能なコマンドを可能な限り全て使ったサンプルです
     * SeleniumIDEで実行する際は、SeleniumIDEを起動して、「Open an existing project」からSeleniumIDECommands.sideを選択してください
+    * テストは下記手順で実行できます
+    * ![SeleniumIDEの実行方法](SeleniumIDE_HowToRun.png "SeleniumIDEの実行方法")
 
 また、STARHOTEL_reservation.sideのテストをTravisCIで実行できるように設定した .travis.ymlを配置しています。
 
