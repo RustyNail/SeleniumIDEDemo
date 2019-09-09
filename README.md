@@ -28,5 +28,8 @@ https://qiita.com/oh_rusty_nail/items/5b584c95e01759c00869
 ```
 $ npm install -g selenium-side-runner
 $ npm install -g chromedriver
-$ selenium-side-runner -c "browserName=chrome" STARHOTEL_reservation.side 
+$ selenium-side-runner -c "browserName=chrome" STARHOTEL_reservation.side
+
+# headlessで実行する場合は以下(Chrome76で動作確認済み)
+$ selenium-side-runner -c "goog:chromeOptions.args=[--headless,--nogpu] browserName=chrome" STARHOTEL_reservation.side 
 ```
